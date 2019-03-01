@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba3b801a-3fba-49ae-8e07-9196edca5a8f">
+  <producedTypes>
+    <selectionType typeId="9c3166a4-037b-42dc-99c5-a180fca9dff8" valueTypeId="18fbab12-c124-496b-922d-633cb24183d2"/>
+    <listType typeId="4bc60104-c372-489b-988e-ab9f8c295987" valueTypeId="d752c7c8-6e8f-43eb-a9b0-f923a692f066"/>
+    <managerType typeId="26e98ab4-c7de-4dd2-973f-0e5349382acb" valueTypeId="ff5ca393-205e-491d-83d5-56c7b4162a52"/>
+    <recordSetType typeId="f58f96e1-20ce-411c-964f-14ac7cdd330e" valueTypeId="d39156bc-4cf4-4a14-bf3f-054ce811f75e"/>
+    <recordKeyType typeId="8fb13441-3b8a-4cdc-8b83-d496ee3baaf8" valueTypeId="6e6de728-f7fa-46b9-a945-49cb93023eba"/>
+    <recordType typeId="be52dafe-339e-4a08-b530-b8e7aaf482f1" valueTypeId="b5ff57c2-66a0-4172-9a95-4ec6c62dfbcc"/>
+    <recordManagerType typeId="d2766b8a-6540-4643-8e81-f6a74350a7d5" valueTypeId="fa500e2c-52b4-45d4-9d47-c983dad062c9"/>
+  </producedTypes>
+  <name>ЕАЕ_РазмерСуточных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер суточных</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5aa11858-8d00-43e0-b7f8-d7569bc07e77">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45dc5939-3894-4c3e-9368-91a85746ecbf">
+    <name>ТипГорода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип города</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ЕАЕ_ТипыГородов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

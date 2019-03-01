@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="333a8301-b363-44b5-8e45-97aa42836a8c">
+  <producedTypes>
+    <selectionType typeId="df5df81f-48cc-4e33-872e-93ce86e36c1b" valueTypeId="95d042a2-bf47-42d7-9a4e-54aae4a34afc"/>
+    <listType typeId="2f60ebd6-1125-4ab5-99db-914822d712a9" valueTypeId="dfff79d5-05fa-421e-bb75-90277c91fba9"/>
+    <managerType typeId="64c708e1-751a-470c-a21c-ddd03e5bab79" valueTypeId="e3f4b7dc-0fa2-4f1e-a421-bf9109ea3b33"/>
+    <recordSetType typeId="43d32d54-d0ec-4bdc-a18c-3f4aca146b48" valueTypeId="b88b4c50-7453-4451-ba37-1b5281f3746b"/>
+    <recordKeyType typeId="62e62ff1-39ed-43d3-87e6-1c37fe98482e" valueTypeId="e4612720-3cb0-4104-978c-c6475b9cd835"/>
+    <recordType typeId="798095b3-b272-444b-96b6-2e2779401d86" valueTypeId="295bd0b7-753e-4eb1-ae7b-5931b7cbaa3e"/>
+    <recordManagerType typeId="64709190-d8e6-4f58-80e9-96e0132772a8" valueTypeId="647cdf43-0ec9-4d20-9c88-19729053abaf"/>
+  </producedTypes>
+  <name>ЕАЕ_МОЛ_ОсновногоСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>МОЛ основных средств</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d9cbfcc0-4dbf-4716-927e-b856cc6277df">
+    <name>ПодразделениеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение ОС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4690f86f-707d-480d-89d7-3987e5f9646f">
+    <name>ТипОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ОС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ЕАЕ_ТипыОС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="abc50181-bf09-463b-9efd-755eed0174c3">
+    <name>МОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОЛ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

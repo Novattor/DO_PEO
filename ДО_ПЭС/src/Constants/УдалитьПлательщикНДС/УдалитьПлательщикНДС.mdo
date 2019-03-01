@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a6f5136-dc52-4719-9563-5b6df52c2150">
+  <producedTypes>
+    <managerType typeId="66ae3d7e-b33c-4569-869f-70f6c506644e" valueTypeId="00b7521e-a1e6-403b-b168-22f5c2d008b5"/>
+    <valueManagerType typeId="c8013bc1-9a86-4088-8089-4b0caa74378a" valueTypeId="ebd6d5ed-3016-48a8-ab5a-85f07df2e44c"/>
+  </producedTypes>
+  <name>УдалитьПлательщикНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) плательщик НДС</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

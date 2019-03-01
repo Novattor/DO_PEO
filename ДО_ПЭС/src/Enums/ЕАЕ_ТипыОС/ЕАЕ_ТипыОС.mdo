@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2d69a1f-d3ac-43f5-9bc1-f2269b9a1659">
+  <producedTypes>
+    <refType typeId="f591e10f-6723-4fe4-bf1a-db9b923cc411" valueTypeId="130863cd-0cee-45a6-8b8a-71d1741ad1ae"/>
+    <listType typeId="c76d1e6c-9908-4364-a990-94ad254d99be" valueTypeId="f948c8ed-6e7c-42d9-8fea-4d0bd2e19952"/>
+    <managerType typeId="7e44fcba-6f1d-4a14-b2e2-73775d9c5de8" valueTypeId="4b5e5df0-72ca-45ab-99ed-4a8644c0f196"/>
+  </producedTypes>
+  <name>ЕАЕ_ТипыОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ОС</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24c7f5b4-c472-4ad7-9d97-1f82142cc7ea">
+    <name>ИТТехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТ техника</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="395da10f-b2e8-4ca9-b508-274271bee3b4">
+    <name>Мебель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мебель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="42660d8b-a311-4d54-b45f-9400197e63b0">
+    <name>ОборудованиеАХО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование АХО</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="541d77f0-7c61-4626-b974-504eb41dfaab">
+    <name>ОборудованиеОтделаБезопасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование отдела безопасности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0cba7ae2-b70d-4e43-a64c-31c4b2064912">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ce001cd3-deb3-4fcd-822d-d3e22fd11ac3">
+    <name>ЗданиеСооружение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здание/сооружение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

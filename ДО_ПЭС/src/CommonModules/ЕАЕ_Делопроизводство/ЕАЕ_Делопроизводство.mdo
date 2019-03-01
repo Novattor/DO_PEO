@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb49cd65-2346-4c13-85d5-2c5ade6f93a3">
+  <name>ЕАЕ_Делопроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕАЕ делопроизводство</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

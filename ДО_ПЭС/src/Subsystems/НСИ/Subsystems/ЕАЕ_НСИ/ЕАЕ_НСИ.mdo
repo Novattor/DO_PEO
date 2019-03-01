@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7b6e539-8f85-4577-9b17-805dcd3d540c">
+  <name>ЕАЕ_НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительно</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЕАЕ_Города</content>
+  <content>Catalog.ЕАЕ_НаименованияДокументов</content>
+  <content>InformationRegister.ЕАЕ_МОЛ_ОсновногоСредства</content>
+  <content>InformationRegister.ЕАЕ_РазмерСуточных</content>
+  <content>InformationRegister.ЕАЕ_ВодителиАвтомобилей</content>
+  <content>Enum.ЕАЕ_ТипыГородов</content>
+  <content>Enum.ЕАЕ_ТипыОС</content>
+  <content>Catalog.ЕАЕ_ПредопределенныеЗначенияОбъектов</content>
+  <content>InformationRegister.ЕАЕ_СоответствиеПредопредОбъектовЗначениямОбъектовБД</content>
+  <content>Role.ЕАЕ_СправочникиЧтение</content>
+  <content>Role.ЕАЕ_СправочникиРедактирование</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1b0f660-c489-4be9-9232-b493d0ca13e1">
+  <producedTypes>
+    <refType typeId="9dcdf25e-376e-4484-bcd3-ba1dc6bd3d06" valueTypeId="1f84633f-8ba0-4b33-ad5b-d9944063fa0f"/>
+    <listType typeId="2cf152e3-6977-4245-8baf-ced792682659" valueTypeId="fad80c47-63e4-40ef-b386-3a1f8f8a6bc0"/>
+    <managerType typeId="70d7304d-d541-4d48-93c8-718c6136503f" valueTypeId="6aacd28c-d0e1-4ce6-b5d4-d76c7ca12b3b"/>
+  </producedTypes>
+  <name>ЕАЕ_ТипыГородов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы городов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b997ca5f-dd99-46cd-b026-21667c653b8d">
+    <name>НаселениеМенее100тысяч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Население менее100 тысяч</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4684072c-5905-4ca0-8051-87ce6059590c">
+    <name>СельскоеПоселение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сельское поселение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7cc57405-7706-4db8-ba21-16f1f5323de7">
+    <name>НаселениеБолее100тысячИменее500тысяч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Население более100 тысяч и менее 500 тысяч</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5623bf6e-50ef-45b1-8182-c01c72dba848">
+    <name>НаселениеБолее500тысяч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Население более 500 тысяч</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1656c41f-d94e-49e0-85cc-68fe78013760">
+    <name>Москва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Москва</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e9440080-5706-43ac-b28c-00f54361d06f">
+    <name>СанктПетербург</name>
+    <synonym>
+      <key>ru</key>
+      <value>Санкт-петербург</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

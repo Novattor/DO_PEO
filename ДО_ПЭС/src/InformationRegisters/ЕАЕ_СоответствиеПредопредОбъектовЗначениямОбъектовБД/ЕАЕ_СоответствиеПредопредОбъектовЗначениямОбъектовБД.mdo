@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be164344-3a43-44d8-b338-5400a7b9996a">
+  <producedTypes>
+    <selectionType typeId="478f785e-7bc7-4bc2-8270-cd41c5f6f4dd" valueTypeId="14dc20a7-4e77-434d-b8b5-bf43035acc92"/>
+    <listType typeId="14c92095-592f-45e6-8836-99dab9bd9b31" valueTypeId="748a23fc-19e0-4b24-b515-a5cbc648487c"/>
+    <managerType typeId="e6cb951e-4985-450e-b2de-7ba7b1589236" valueTypeId="45ca4e0e-34e4-4060-b5f3-38be894fcfe9"/>
+    <recordSetType typeId="700a28fc-cdbb-491d-8ee3-bcaf509713cd" valueTypeId="0399528b-baf5-44f4-bb9e-723e7af3cbee"/>
+    <recordKeyType typeId="951b8c40-cb40-44cd-832b-99b580af5775" valueTypeId="a9e5fa9f-e1ea-49a3-a622-856907fc84ae"/>
+    <recordType typeId="5a92445f-42f2-409c-93f2-95d0568cf1b0" valueTypeId="f6cae356-ba10-4279-b48b-6d196130e697"/>
+    <recordManagerType typeId="4aa69d24-98da-4f6d-b9f9-cdadca3df282" valueTypeId="a5311de5-b39a-412b-98b0-72f6b993e2f2"/>
+  </producedTypes>
+  <name>ЕАЕ_СоответствиеПредопредОбъектовЗначениямОбъектовБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие предопределенных объектов значениям объектов БД</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="100f3eca-ff82-419d-b876-e1f9eb93a77d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b2dfb1bc-20fd-40d4-aded-33d257093a39">
+    <name>ПредопределенныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЕАЕ_ПредопределенныеЗначенияОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

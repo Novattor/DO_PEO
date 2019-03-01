@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0600bc95-9e85-44e2-a242-542b59f953bb">
+  <name>ЕАЕ_СправочникиРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕАЕ справочники редактирование</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

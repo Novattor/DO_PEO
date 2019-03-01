@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85500eda-99f0-446e-82e5-caa58eb34915">
+  <producedTypes>
+    <objectType typeId="62a03dd1-43cb-4595-8b32-25cc36b89ea0" valueTypeId="43ee2b78-8288-470c-869d-e52b23ab47bc"/>
+    <refType typeId="13a099b9-2865-411d-984b-f9e34628ef1b" valueTypeId="07d99eb1-bcaa-4835-aa49-49143dba8e53"/>
+    <selectionType typeId="6b52cf99-5b25-414e-8b02-164b9f1a95a8" valueTypeId="1e1062b6-0488-4aa4-8e2b-d9fe036c4b3d"/>
+    <listType typeId="1bd81787-ebac-4f92-a6b2-2695149588c1" valueTypeId="55f3e59e-c566-41a3-a821-2db1e8883cc6"/>
+    <managerType typeId="ac3b9c68-2a1a-458e-acd3-7193740a6808" valueTypeId="3415c144-065d-4608-95a6-48f84e3cd37f"/>
+  </producedTypes>
+  <name>ЕАЕ_ПредопределенныеЗначенияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕАЕ предопределенные значения объектов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕАЕ_ПредопределенныеЗначенияОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕАЕ_ПредопределенныеЗначенияОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c2f79a36-da43-4f42-b9f8-7cbe694a7cdc">
+      <name>ВидВходДокументаВходПисьмоУФАС</name>
+      <description>Вид входящего документа Вход письмо УФАС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="f099c6a6-eeca-4c50-aa93-119d14acd9a1">
+      <name>ВидВходДокументаВходящееПисьмо</name>
+      <description>Вид входящего документа Входящее письмо</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="68433d54-2064-49d9-a9dd-41bf77a628ee">
+      <name>ВидВходДокументаОбращениеОтГраждан</name>
+      <description>Вид входящего документа Обращение от граждан</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="6328d2a8-201c-4ad6-b8a8-26149603e9ca">
+      <name>ДопРеквАдресВходПисьмоУФАС</name>
+      <description>Доп.реквизит Адрес (Входящее письмо от УФАС)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="af27c227-a412-44ef-a7e7-22be075bcb2b">
+      <name>ДопРеквАдресВходПисьмо</name>
+      <description>Доп.реквизит Адрес (Входящее письмо)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="bfece33a-ebcd-4f40-ba5e-e0e2977be7e9">
+      <name>ДопРеквАдресВходПисьмоОбращение</name>
+      <description>Доп.реквизит Адрес (Обращение от граждан)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="08f31050-b99b-4c8d-8fba-1bebc778c51a">
+      <name>ДопРеквУРЭЭПодписДирПоЭнергосбДеят</name>
+      <description>Доп.реквизит Исходящие документы УРЭЭ подписывает директор по энергосбытовой деятельност</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="50987164-c16c-40b1-a60d-b212e432c15f">
+      <name>ДопРеквНормоконтроль</name>
+      <description>Доп.реквизит Нормоконтроль (Исходящие документы)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="285fc8ce-5444-41fc-8082-82051728870e">
+      <name>ДопРеквОтправкаЧерезДелопроизв</name>
+      <description>Доп.реквизит Отправка через делопроизводителя (Исходящее письмо)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="6c274fb5-0d05-43a1-acb4-199e13bbdd52">
+      <name>ДопРеквПолноеИмяИОтчество</name>
+      <description>Доп.реквизит Полное имя и отчество (Контактные лица)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="663018e7-a49d-4ac1-b72d-cb6e8cdddf0b">
+      <name>ПодразделениеГубахинскоеОтделение</name>
+      <description>Подразделение Губахинское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="9a99e094-83a5-43d2-ae5c-ec41f1b0abe2">
+      <name>ПодразделениеЗакамскоеОтделение</name>
+      <description>Подразделение Закамское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="b97b7ce4-6968-4e21-9ba4-fda2e5bbc99a">
+      <name>ПодразделениеКудымкарскоеОтделение</name>
+      <description>Подразделение Кудымкарское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="2d1551d7-7d09-4d64-928a-92319d447819">
+      <name>ПодразделениеКунгурскоеОтделение</name>
+      <description>Подразделение Кунгурское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="82ba397d-ac47-47da-b6c4-c42b33335efb">
+      <name>ПодразделениеМотовилихинскоеОтделение</name>
+      <description>Подразделение Мотовилихинское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="d192da0e-cf43-49a8-beb7-c71ff560f8c4">
+      <name>ПодразделениеОтделение</name>
+      <description>Подразделение Отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="03abf953-ce66-4e47-b57e-06e4aa506c49">
+      <name>ПодразделениеОчерскоеОтделение</name>
+      <description>Подразделение Очерское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="58da96e2-42ca-42de-9833-8c9c9353317b">
+      <name>ПодразделениеСеверноеОтделение</name>
+      <description>Подразделение Северное отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="ac415584-1c04-461b-85a3-be3b2bf4f665">
+      <name>ПодразделениеУРЭЭ</name>
+      <description>Подразделение УРЭЭ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="9ee9bfd2-ba78-4d4a-b311-3eff020f7e81">
+      <name>ПодразделениеЦентральноеОтделение</name>
+      <description>Подразделение Центральное отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="c85ed0e6-c501-4292-846d-19ee6f650f18">
+      <name>ПодразделениеЧусовскоеОтделение</name>
+      <description>Подразделение Чусовское отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="cb4aad17-6a7d-4edf-a1d0-a5f6a0bb5495">
+      <name>ПодразделениеЮжноеОтделение</name>
+      <description>Подразделение Южное отделение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="7743225d-ad2d-4ab9-a9a1-5b92b0e043ab">
+      <name>ПолнаяРольДиректорПоНаправлению</name>
+      <description>Полная роль Директор по направлению, Заместитель генерального директора - директор по сбытовой деяте</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="5ed955ab-4ada-4d3f-96c8-485cfdb8c00b">
+      <name>ПолнаяРольНачальникУРЭ</name>
+      <description>Полная роль Начальник управления реализации электроэнергии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

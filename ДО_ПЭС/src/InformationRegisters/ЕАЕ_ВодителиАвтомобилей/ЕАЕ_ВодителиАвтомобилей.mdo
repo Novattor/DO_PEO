@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57bce23-ccf9-4a64-a321-d40541d967a9">
+  <producedTypes>
+    <selectionType typeId="b0920907-113e-482d-b247-293d5b0a2606" valueTypeId="655430d9-c139-48ac-a003-447102c28fb0"/>
+    <listType typeId="5c58e34f-13f1-4906-8c6b-c03f8bfb59fd" valueTypeId="c77d2802-f881-4ccf-abdf-6bc9380e4126"/>
+    <managerType typeId="2953cba8-d525-4ff1-9d7d-7d2eff47a6d0" valueTypeId="b4ba83b5-0729-4b2c-a6a7-1fd8f49a7040"/>
+    <recordSetType typeId="e28bf7fb-f654-4add-a078-4eb10cdb7e9a" valueTypeId="94845bc8-8f37-4e06-a5cc-56bf40b9029e"/>
+    <recordKeyType typeId="8f305b0d-66e0-4f74-900d-2c6dfeafbe84" valueTypeId="b4ee79ba-8df2-4b88-b15d-be23e4a7b79a"/>
+    <recordType typeId="0adb35ad-eaba-4ab3-8628-e65467c39cc8" valueTypeId="e893cccc-37b5-46af-81fe-34bcb3ea0546"/>
+    <recordManagerType typeId="39dd61d9-fcae-4014-ba0d-ec72fbf80463" valueTypeId="6ab5a8d8-0311-452a-8c97-576167a7f266"/>
+  </producedTypes>
+  <name>ЕАЕ_ВодителиАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Водители автомобилей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="634b1716-0a75-435e-835e-3fa95dd40c7d">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="74844a6f-54f8-4a0e-a71e-a980ab63963e">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
